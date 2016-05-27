@@ -1,0 +1,29 @@
+@import "zero";
+@import "fonts";
+@import "vars";
+@import "header";
+@import "slider";
+@import "info";
+@import "service";
+@import "feed";
+@import "tmarks";
+@import "footer";
+
+body {
+
+  .wrapper {
+    position: relative;
+    width: $wrapper_width;
+    margin: 0 auto;
+  }
+  
+  .wrapper2 {
+    position: relative;
+    width: $header_width;
+    margin: 0 auto;
+  }
+  
+ 
+  
+}
+

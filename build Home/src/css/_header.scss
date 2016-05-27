@@ -1,0 +1,189 @@
+header {
+
+  .logos {
+	margin: 0 auto;
+	margin-top: 35px;
+	height: 70px;
+    width: $header_width;
+	
+		.logos__icons {
+		  position: relative;
+		  float: right;
+          display: block;
+          width: 158px;
+          height: 24px;
+		}  
+		  
+		li {
+		
+			a {
+			  display: block;
+			  position: absolute;
+			  cursor: pointer;
+			  top: 10px;
+			}
+		
+			.logos__fb {
+			  right: 140px;
+			  width: 8px;
+			  height: 16px;
+			  background: $socials_sprite 0 0 no-repeat;
+
+              &:hover {
+				background: $socials_sprite 0 -18px no-repeat;
+			  }
+			
+			}
+
+			
+			.logos__twit {
+			  right: 101px;
+			  width: 17px;
+			  height: 16px;
+			  background: $socials_sprite -11px 0 no-repeat;
+
+              &:hover {
+				background: $socials_sprite -11px -18px no-repeat;
+			  }			
+
+			}
+			
+			.logos__rrc {
+			  right: 68px;
+			  width: 17px;
+			  height: 16px;
+			  background: $socials_sprite -29px 0 no-repeat;
+
+              &:hover {
+				background: $socials_sprite -29px -18px no-repeat;
+			  }			
+
+			}		
+		
+			.logos__linke {
+			  right: 35px;
+			  width: 18px;
+			  height: 16px;
+			  background: $socials_sprite -46px 0 no-repeat;
+
+              &:hover {
+				background: $socials_sprite -46px -18px no-repeat;
+			  }			
+
+			}	
+
+
+			.logos__skype {
+			  right: 3px;
+			  width: 18px;
+			  height: 16px;
+			  background: $socials_sprite -64px 0 no-repeat;
+
+              &:hover {
+				background: $socials_sprite -64px -18px no-repeat;
+			  }			
+
+			}
+						
+		}
+
+
+	}   /*  end of logos  */
+  
+  
+  
+  
+/* ----------- Navigation --------------- */
+
+
+  .main_nav {
+    margin: 0 auto;
+    width: $header_width;
+    height: 55px;
+    background-color: $color_dark;
+
+	ul {
+	  display: inline-block;
+      float: left;
+
+	  li {
+	    width: 118px;
+        height: 55px;
+        float: left;
+        text-align: center;
+        line-height: 55px;
+        border-right: 1px solid $color_dark2;
+	  
+	    &:nth-child(1) {
+          background-color: $color_medium;
+        }
+	  
+		a {
+          font-family: $font_Ubuntu;
+          font-size: $font_main;
+          line-height: 20px;
+          font-weight: 400;
+		  text-transform: uppercase;
+          color: $color_white;
+		  text-decoration: none;
+
+          &:hover {
+            color: $color_light;
+          }
+        }
+		
+	
+	  } /*  end of li  */
+	
+	
+	} /*  end of ul  */
+  
+	
+	form {
+	  display: inline-block;
+      float: right;
+      position: relative;
+      width: 241px;
+      height: 55px;
+	
+	  p {
+        display: inline-block;
+        width: 240px;
+        height: 50px;
+        font-size: $font_small;
+        font-weight: 400;
+        line-height: 50px;
+		
+		
+		img {
+          position: absolute;
+          top: 14px;
+          right: 10px;
+          z-index: 7;
+        }
+		
+		
+		input {
+		  float: right;
+          width: 240px;
+          height: 40px;
+          margin-top: 7px;
+		  margin-right: 7px;
+		  padding-left: 7px;
+          background-color: rgba(255, 255, 255, 0.05);
+		  color: $color_gray;
+          border: 1px solid $color_dark2;
+          z-index: 20;
+		  
+          &:focus {
+            color: $color_white;
+          }        
+        }		
+		
+	  }
+	
+	}  /*  end of form  */
+
+  } /*  end of logos  */
+ 
+} /*end of header */

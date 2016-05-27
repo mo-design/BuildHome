@@ -1,0 +1,181 @@
+		h3 {
+			margin: 0 0 40px 3px;
+			color: $color_dark;
+			font-size: $font_superbig +5;
+			font-family: $font_UbuntuMed; 
+			text-transform: capitalize;
+		}
+
+
+
+.feed {
+	padding: 64px 0 82px;
+	background: $feed_bg;
+	min-height: 400px;
+	
+	.feed__news {
+		float: left;
+		width: 560px;
+				
+		.news{
+			margin-top: 30px;
+			&:after{
+				content:'';
+				display:block;
+				height:0;
+				clear: both;
+			}
+		
+		
+		
+			.news__pic {
+				position: relative;
+				float: left;
+				margin-right: 34px;
+			}
+
+			.data {
+				position: absolute;
+				left: -17px;
+				top: 12px;
+				height: 80px;
+				width: 40px;
+				text-align: center;
+			}
+
+			.month {
+				height: 40px;
+				background: $color_medium;
+				color: $color_white;
+				font-size: $font_main +1;
+				font-family: $font_UbuntuMed;
+				line-height: 40px;
+			}
+
+			.day {
+				height: 40px;
+				background: $color_light;
+				color: $color_dark;
+				font-size: $font_main +4;
+				font-family: $font_UbuntuMed;
+				line-height: 40px;
+			}
+			
+			
+			img {
+				height: 150px;
+				width: 150px;
+			}
+
+			
+			
+			.news__content {
+				
+								
+				.news__text, p {
+					color: $color_text;
+					font-family: $font_UbuntuMed;
+					font-size: $font_medium;
+					line-height: 1.5;
+					
+					a{
+						color: $color_medium;
+						text-decoration: none;
+					}
+				}
+				
+				
+				.news__title {
+					margin-bottom: 11px;
+					
+					a{
+						color: $color_dark;
+						font-size: $font_big;
+						font-family: $font_UbuntuMed;
+						text-decoration: none;
+						&:hover{
+							color: $color_medium;
+						}
+					}
+				}
+
+			
+
+				.news__author {
+					margin-bottom: 27px;
+					.author {
+						margin: 0 5px;
+					}
+				}
+				
+
+
+
+
+			
+			} /*---- end of news__content ------*/
+			
+			
+			
+			
+		} /*---- end of news ------*/
+	
+	} /*---- end of feed__news ------*/	
+	
+	
+	
+	
+	.feed__banners {
+		margin-left: 600px;
+		margin-right: 30px;
+
+		.feed__banner__title {
+			height: 39px;
+			margin-bottom: 5px;
+			border: 1px solid $color_slgray;
+			background: $color_white;
+			color: $color_dark;
+			font-size: $font_medium;
+			font-family: $font_UbuntuMed;
+			line-height: 39px;
+			text-transform: uppercase;
+			cursor: pointer;
+
+			span {
+				display: inline-block;
+				margin-right: 13px;
+				width: 38px;
+				border-right: 2px solid $color_slgray;
+				text-align: center;
+			}
+		}
+		
+		
+		.feed__banner__title-active {
+			background: $color_light;
+			color: $color_white;
+
+			span {
+				border-right: 1px solid #f6c44f;
+			}
+		}
+		
+		
+		
+		.feed__banner__text, p {
+			display: none;
+			margin: 30px 0 43px 38px;
+			color: $color_text;
+			font-family: $font_UbuntuMed;
+			font-size: $font_medium;
+			line-height: 1.5;
+		}
+		
+	} /*---- end of feed__banners ------*/	
+	
+	
+	
+}   /*---- end of feed ------*/
+
+
+

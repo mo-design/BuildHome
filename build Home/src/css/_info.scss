@@ -1,0 +1,104 @@
+.info {
+  clear: both;
+  margin: 71px auto 87px;
+  width: $header_width;
+
+  .info__wrapper {
+    margin-right: 30px;
+    display: inline-block;
+    position: relative;
+
+    .info__number {
+      float: left;
+      margin-right: 31px;
+      width: 65px;
+      height: 61px;
+      color: $color_gray;
+      opacity: 0.1;
+
+      font: {
+        family: $font_UbuntuMed;
+        size: 90px;
+      }
+    }
+	
+	
+	
+    .info__text {
+      float: right;
+	  padding-left: 20px;
+	  
+	  
+	  h4 {
+      margin-bottom: 17px;
+      height: 15px;
+      color: $color_dark;
+
+      font: {
+        family: $font_UbuntuMed;
+        size: $font_superbig;
+      }
+    }
+	  
+	  
+	  
+	  
+	  
+    }
+	
+    .info__icon {
+      margin-bottom: 10px;
+    
+	
+	}
+
+	
+	
+
+
+    p {
+      margin-bottom: 25px;
+      width: 237px;
+      color: $color_text;
+	  line-height: 1.5;
+
+      font: {
+        family: $font_Arial;
+        size: $font_medium;
+      }
+    }
+
+    a {
+      margin-bottom: 26px;
+      width: 65px;
+      height: 11px;
+      color: $color_dark;
+	  text-decoration: none;
+
+      font: {
+        family: $font_UbuntuMed;
+        size: $font_medium;
+      }
+    }
+
+    .arrow {
+      margin: 9px;
+      color: $color_medium;
+    }
+
+    a:hover {
+      color: $color_medium;
+    }
+
+    .arrow:hover {
+      color: $color_dark;
+    }
+
+  }  
+} 
+
+
+
+
+
+

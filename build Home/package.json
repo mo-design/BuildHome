@@ -1,0 +1,16 @@
+{
+  "name": "dz_20",
+  "version": "1.0.0",
+  "description": "dz 20 from Olga Maksymova",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "$OlgaMaximova <$maximova.olga@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}

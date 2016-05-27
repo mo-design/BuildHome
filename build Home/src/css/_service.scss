@@ -1,0 +1,66 @@
+.service {
+  background-color: $color_dark;
+  padding: 50px 40px 70px;
+
+  
+  h3 {
+	height: 19px;
+    color: $color_white;
+	font-family: $font_UbuntuMed;
+    font-size: $font_superbig+5;
+    margin-bottom: 54px;
+  }
+  
+  .service__block {
+    display:inline-block;
+  }
+  
+  
+	figure {
+		margin: 0 12px;
+    }
+	
+	
+  p {
+    margin-top: 33px;
+    text-align: center;
+    color: $color_white;
+    font-size: $font_big;
+	font-family: $font_UbuntuMed;
+
+    &:hover {
+      color: $color_light;
+    }
+  }
+	
+	
+
+  
+  .service__block__link {
+	  display: block;
+      width: 260px;
+      height: 260px;
+      position: relative;
+  
+	  &:hover {
+		display: block;
+		opacity: 0.8;
+      }
+  }
+  
+  
+  .service__bluepic {
+	  display:none;
+      position:absolute;
+      right:0;
+      bottom: 0;
+  }
+  
+
+  .service__block__link:hover .service__bluepic {
+      display: block;
+      opacity: 0.8;
+  }
+
+
+}

@@ -1,0 +1,117 @@
+footer {
+  width: 100%;
+  height: 386px;
+  background-color: $color_dark;
+
+  .about {
+    width: $header_width;
+    height: 326px;
+    margin: 0 auto;
+
+    .about__block {
+      display: block;
+      float: left;
+      width: 260px;
+      margin-right: 40px;
+      height: 320px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      h3 {
+        margin-top: 64px;
+        color: $color_white;
+        font-family: $font_UbuntuMed;
+        font-size: $font_big; 
+		font-weight: 500;
+        line-height: 24px;
+        text-transform: uppercase;
+	}
+	
+	
+      ul {
+
+        li {
+          border-bottom: 1px solid #393c40;
+          &:last-child {
+            border-bottom: none;
+          }
+          a {
+			color: $footer_text;
+			font-family: $font_Arial;
+			font-size: $font_medium; 
+			font-weight: 400;
+            line-height: 36px;
+			text-decoration: none;
+            &:hover {
+              color: $color_medium;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  
+  
+  .contacts {
+    position: absolute;
+	width: 100%;
+    height: 59px;
+    background-color: $footer_bg;
+	color: $footer_text;
+	font-family: $font_UbuntuMed;
+    font-size: $font_small; 
+	font-weight: 400;
+    line-height: 20px;
+	
+    span {
+      margin-left: 20px;
+	  margin-right: 50px;
+      margin-top: 24px;
+      float: left;
+    }
+	
+    #address {
+      &:before {
+        content: " ";
+        position: absolute;
+        top: 25px;
+        left: 0;
+        background: $adress_sprite 0 0 no-repeat;
+        width: 14px;
+        height: 16px;
+      }
+    }
+	
+    #mobile {
+      &:before {
+        content: " ";
+        position: absolute;
+        top: 25px;
+        left: 340px;
+        background: $adress_sprite -15px 0 no-repeat;
+        width: 14px;
+        height: 16px;
+      }
+    }
+	
+    #e-mail {
+      &:before {
+        content: " ";
+        position: absolute;
+        top: 25px;
+        left: 500px;
+        background: $adress_sprite -29px 0 no-repeat;
+        width: 18px;
+        height: 16px;
+      }
+    }
+	
+    #copyright {
+      float: right;
+      margin-right: 40px;
+    }
+  }
+}
