@@ -1,2 +1,2 @@
-build Home/node_modules/
-build Home/.sass-cache/
+node_modules/
+.sass-cache/
